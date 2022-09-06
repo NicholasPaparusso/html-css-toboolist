@@ -3,7 +3,7 @@
   margin: 0;
   box-sizing: border-box;
   padding: 0;
-  font-family: 'Roboto', sans-serif
+  font-family: 'Roboto', sans-serif;
 }
 
 body{
@@ -12,11 +12,15 @@ body{
 
 main{
   margin: 0 15% 0 15%;
+  margin-bottom: 10px;
 }
 main .box{padding:2% 5% 2% 5%;
 line-height: 25px;
 }
 
+h2{
+  font-size: 25px;
+}
 /*General*/
 
 
@@ -51,11 +55,11 @@ header img{
   border-radius: 10px;
   padding: 10px;
 }
-#task{
+#button-task{
   border: solid 1px #47adf1 ;
   background-color: #47adf1;
 }
-#section{
+#button-section{
   margin-left: 10px;
   border: solid 1px #dbdfe2;
   color: #dbdfe2;
@@ -65,10 +69,58 @@ header img{
 
 /*task-list*/
 .task-list{
-  height:750px;
+  height:725px;
   background-color: white;
   border-radius: 0 0 10px 10px;
 }
 
+section h2:before{
+  content: '\25BC ';
+}
 
+section p, span{
+  margin-top: 30px;
+  font-size: 20px;
+}
+#check{
+  color: lightgreen;
+  border: solid 1px lightgreen;
+}
+#uncheck{
+  color: red;
+  border: solid 1px red;
+}
+
+#check, #uncheck{
+  border-radius: 100%;
+  padding: 0px 5px;
+}
+
+section h2{
+  margin-top: 30px;
+}
+.little-box{
+  border-radius: 10px;
+  color: white;
+  font-size: 12px;
+  padding: 5px 10px;
+}
+#edi{
+  background-color: #45abea;
+}
+#q1{
+  background-color:#9c72e4 ;
+}
+#recr{
+  background-color: #64c0a9;
+}
+#mob{
+  background-color: #f29e33;
+}
+#web{
+  background-color: #d863a1;
+}
+#sale{
+  background-color: #b0c926;
+}
 /*task-list*/
