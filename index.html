@@ -15,7 +15,7 @@
   <!--Logo-Title-->
     <div>
       <img src="./assets/img/Logo.png" alt="logo-toboolist">
-      <h1>Toboolist</h1>
+      <span id="logo-text">Toboolist</span>
     </div>
   <!--/Logo-Title-->
   </header>
@@ -24,31 +24,43 @@
 
     <!--topbar-->
     <div class="topbar box">
-      <span id="button-task">Add Task</span> <span id="button-section">Add Section</span>
+      <button id="button-task">Add Task</button> <button id="button-section">Add Section</button>
     </div>
     <!--/topbar-->
 
     <!--task-list-->
     <section class="task-list box">
       <div class="new">
-        <h2 id="title">New Task</h2>
-        <p><span id="check">&check;</span> Quarterly Newsletter <span class="little-box" id="edi">Editorial</span></p>
+        <ul>
+          <li><h2 id="title">New Task</h2></li>
+        </ul>
+        <ul> 
+          <li> <p><span id="check">&check;</span> Quarterly Newsletter <span class="little-box" id="edi">Editorial</span></p></li>
+        </ul>
       </div>
 
       <div class="today">
-        <h2 id="title">Today</h2>
-        <p><span id="check">&check;</span> Recruiting blog post <span class="little-box" id="edi" >Editorial</span></p>
-        <p><span id="check">&check;</span> Mobile app launch <span class="little-box" id="q1">Q1 Goals</span></p>
-        <p><span id="uncheck">&#10799;</span> Interview John H. <span class="little-box" id="recr">Recruiting</span></p>
-        <p><span id="check">&check;</span> Summit update to mobile storefronts <span class="little-box" id="mob">Mobile</span></p>
+        <ul>
+          <li><h2 id="title">Today</h2></li>
+        </ul>
+        <ul>  
+          <li><p><span id="check">&check;</span> Recruiting blog post <span class="little-box" id="edi" >Editorial</span></p></li>
+          <li><p><span id="check">&check;</span> Mobile app launch <span class="little-box" id="q1">Q1 Goals</span></p></li>
+          <li><p><span id="uncheck">&#10799;</span> Interview John H. <span class="little-box" id="recr">Recruiting</span></p></li>
+          <li><p><span id="check">&check;</span> Summit update to mobile storefronts <span class="little-box" id="mob">Mobile</span></p></li>
+         </ul> 
       </div>
 
       <div class="upcoming">
-        <h2 id="title">Upcoming</h2>
-        <p><span id="uncheck">&#10799;</span> Schedule meeting with Alex</p>
-        <p><span id="check">&check;</span> Homepage refresh <span class="little-box" id="web">Website</span></p>
-        <p><span id="check">&check;</span> Onboard new Sales team members <span class="little-box" id="sale">Sales</span></p>
-        <p><span id="check">&check;</span> Review editorial calendar <span class="little-box" id="edi">Editorial</span></p>
+        <ul>
+          <li><h2 id="title">Upcoming</h2></li>
+        </ul>
+        <ul>  
+          <li><p><span id="uncheck">&#10799;</span> Schedule meeting with Alex</p></li>
+          <li><p><span id="check">&check;</span> Homepage refresh <span class="little-box" id="web">Website</span></p></li>
+          <li><p><span id="check">&check;</span> Onboard new Sales team members <span class="little-box" id="sale">Sales</span></p></li>
+          <li></li><p><span id="check">&check;</span> Review editorial calendar <span class="little-box" id="edi">Editorial</span></p></li>
+        </ul>
       </div>
     </section>
     <!--/task-list-->

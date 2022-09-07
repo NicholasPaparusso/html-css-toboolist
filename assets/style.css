@@ -21,25 +21,33 @@ line-height: 25px;
 h2{
   font-size: 25px;
 }
+li{
+  list-style:none ;
+
+}
+
+span{margin-left: 20px;}
 /*General*/
 
 
 /*Title & Logo*/
 header div{
-  padding: 20px 20px;
+  padding: 10px 20px;
   background-color: white;
-  font-weight: bold;
-  font-size: 20px;
-  height: 100px;
+  height: 70px;
   margin-bottom: 50px;
 }
-header h1{
-  display: inline;
+
+#logo-text{
+  font-weight: 800;
+  font-size: 38px;
+  vertical-align: middle;
+}
+header img{
+  vertical-align:middle;
+  height: 100%;
 }
 
-header img{
-  vertical-align:bottom;
-}
 /*Title & Logo*/
 
 
@@ -51,15 +59,17 @@ header img{
   border-bottom: solid 5px #f6f8f9;
   
 }
-.topbar span{
+.topbar button{
   border-radius: 10px;
-  padding: 10px;
+  padding: 5px 10px;
 }
 #button-task{
+  color: white;
   border: solid 1px #47adf1 ;
   background-color: #47adf1;
 }
 #button-section{
+  background-color: white;
   margin-left: 10px;
   border: solid 1px #dbdfe2;
   color: #dbdfe2;
@@ -69,7 +79,7 @@ header img{
 
 /*task-list*/
 .task-list{
-  height:725px;
+  height: 750px;
   background-color: white;
   border-radius: 0 0 10px 10px;
 }
